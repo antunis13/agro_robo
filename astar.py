@@ -18,7 +18,7 @@ def astar(farm, start, goal, E_max):
         for neighbor in farm.neighbors(current):
             tentative_g = g_score[current] + 1  # custo = 1
 
-            # 🚨 RESTRIÇÃO DE ENERGIA
+            #  RESTRIÇÃO DE ENERGIA
             if tentative_g > E_max:
                 continue
 

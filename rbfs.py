@@ -14,7 +14,7 @@ def rbfs(farm, start, goal, E_max):
 
             g_new = g + 1
 
-            # 🚨 energia
+            #  energia
             if g_new > E_max:
                 continue
 

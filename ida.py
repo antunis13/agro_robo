@@ -8,7 +8,7 @@ def ida(farm, start, goal, E_max):
         node = path[-1]
         f = g + heuristic(node, goal)
 
-        # 🚨 energia + limite
+        #  energia + limite
         if f > bound or g > E_max:
             return f
 

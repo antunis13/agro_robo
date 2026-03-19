@@ -58,7 +58,7 @@ class Farm:
             if not self.in_bounds(new):
                 continue
 
-            if not self.is_valid_region(new):  # 🔥 AQUI
+            if not self.is_valid_region(new):  
                 continue
 
             if self.is_obstacle(new):
