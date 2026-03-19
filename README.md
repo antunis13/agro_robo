@@ -20,4 +20,4 @@ ou se estiver no ambiente macOS
 
 ## Como testar os algoritmos
 
-    Os algoritmos tem suas funções específicas no arquivo `main.py`, no final do arquivo todas as funções estão sendo chamadas, descomente a linha do algoritmo que você deseja executar.
+Os algoritmos tem suas funções específicas no arquivo `main.py`, no final do arquivo todas as funções estão sendo chamadas, descomente a linha do algoritmo que você deseja executar.
